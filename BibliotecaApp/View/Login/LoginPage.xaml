@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BibliotecaApp.View.Login.LoginPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Usuario"/>
+            <Entry Placeholder="Ingrese Usuario" x:Name="txtusuario"/>
+           
+            <Label Text="Contraseña"/>
+            <Entry Placeholder="Ingrese Contraseña" x:Name="txtcontrasena" IsPassword="True"/>
+            
+            <Button Text="Ingresar" Clicked="BtnIngresar_Clicked"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

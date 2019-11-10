@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<discovery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.xmlsoap.org/disco/">
+  <contractRef ref="http://localhost:55049/WebServicesAria.asmx?wsdl" docRef="http://localhost:55049/WebServicesAria.asmx" xmlns="http://schemas.xmlsoap.org/disco/scl/" />
+  <soap address="http://localhost:55049/WebServicesAria.asmx" xmlns:q1="http://localhostorg/" binding="q1:WebServicesAriaSoap" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+  <soap address="http://localhost:55049/WebServicesAria.asmx" xmlns:q2="http://localhostorg/" binding="q2:WebServicesAriaSoap12" xmlns="http://schemas.xmlsoap.org/disco/soap/" />
+</discovery>

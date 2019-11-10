@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BibliotecaApp.RegistrarUsuario">
+    <ContentPage.Content>
+        <StackLayout VerticalOptions="FillAndExpand">
+            <Label Text="Nombre"  />
+            <Entry x:Name="Nombre"/>
+            <Label Text="Apellido" />
+            <Entry  x:Name="Apellido" />
+            <Label Text="Documento" />
+            <Entry  x:Name="Documento" />
+            <Label Text="Contraseña"/>
+            <Entry  x:Name="Contrasena" IsPassword="True"/>
+            <Label Text="Correo" />
+            <Entry  x:Name="correo" />
+            <Button Text="Guardar"/>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
